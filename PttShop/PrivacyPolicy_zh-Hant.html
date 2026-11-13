@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>PttShop 隱私權政策</title>
+  <meta name="description" content="PttShop 繁體中文隱私權政策：本機資料儲存、PTT 網路連線、第三方服務、預計導入的 AdMob 廣告及聯絡方式。" />
+  <link rel="canonical" href="https://jackshie.github.io/PttShop/PrivacyPolicy_zh-Hant.html" />
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      line-height: 1.75;
+    }
+    main { max-width: 860px; margin: 0 auto; padding: 32px 18px 60px; }
+    h1 { font-size: 2rem; line-height: 1.3; margin: 24px 0 12px; }
+    h2 { margin-top: 32px; font-size: 1.3rem; line-height: 1.5; }
+    h3 { margin-top: 22px; font-size: 1.05rem; }
+    p { margin: 12px 0; }
+    a { color: #2466bb; overflow-wrap: anywhere; text-underline-offset: 3px; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible { outline: 3px solid currentColor; outline-offset: 4px; border-radius: 2px; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px 20px; padding-bottom: 16px; border-bottom: 1px solid rgba(127,127,127,.35); }
+    nav a { min-height: 44px; display: inline-flex; align-items: center; }
+    nav [aria-current="page"] { font-weight: 700; }
+    .meta { opacity: .9; margin-bottom: 20px; }
+    .meta strong { display: inline-block; min-width: 100px; }
+    ul, ol { padding-left: 24px; }
+    li { margin: 6px 0; }
+    .note { padding: 14px 16px; border: 1px solid rgba(127,127,127,.4); border-radius: 10px; margin: 20px 0; }
+    footer { border-top: 1px solid rgba(127,127,127,.35); padding-top: 18px; margin-top: 36px; font-size: .9rem; }
+    .skip { position: absolute; top: -100px; left: 12px; padding: 10px; background: Canvas; color: CanvasText; z-index: 1; }
+    .skip:focus { top: 12px; }
+    @media (prefers-color-scheme: dark) { a { color: #91c1ff; } }
+    @media (max-width: 480px) { main { padding-top: 20px; } h1 { font-size: 1.75rem; } }
+    @media print { nav, .skip { display: none; } main { max-width: none; padding: 0; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#content">跳至主要內容</a>
+  <main id="content">
+    <nav aria-label="PttShop 網頁導覽">
+      <a href="Support_zh-Hant.html">PttShop 支援</a>
+      <a href="PrivacyPolicy_zh-Hant.html" aria-current="page">隱私權政策</a>
+    </nav>
+    <h1>PttShop 隱私權政策</h1>
+    <div class="meta">
+      <div><strong>適用 App：</strong>PttShop</div>
+      <div><strong>開發者：</strong>Liang-Zong Shie</div>
+      <div><strong>聯絡信箱：</strong><a href="mailto:bareo0101@gmail.com">bareo0101@gmail.com</a></div>
+      <div><strong>生效日期：</strong><time datetime="2026-11-13">2026 年 11 月 13 日</time></div>
+    </div>
+    <p>本政策說明 PttShop 及其支援網站如何處理資料。PttShop 是搜尋與瀏覽 PTT 公開交易文章的獨立工具，並非 PTT 官方服務。</p>
+    <div class="note">
+      <strong>重點摘要：</strong>目前 App 不需要建立帳號，也沒有開發者自行架設的後端。關鍵字、收藏與閱讀等紀錄主要儲存在裝置中；搜尋與瀏覽時仍會連線至 PTT 等第三方服務，並非完全離線，也不代表第三方不會處理連線資料。
+    </div>
+
+    <h2>1. 儲存在裝置中的資料</h2>
+    <p>為提供功能，App 會使用 Core Data 與系統偏好設定儲存以下資料：</p>
+    <ul>
+      <li>各看板的關鍵字清單、顯示名稱及排序。</li>
+      <li>最近選用的看板、販售／徵求類型、關鍵字、時間範圍與手動選取的地區。</li>
+      <li>收藏文章的標題、日期、連結與收藏時間。</li>
+      <li>已閱讀文章連結，以及用於判斷新文章的搜尋條件和文章連結比對紀錄。</li>
+    </ul>
+    <p>這些資料用來保留設定、顯示收藏及辨識新文章；目前不會由 App 上傳至開發者伺服器。資料可能依你的系統設定納入 iOS 裝置備份，相關備份由 Apple 或你選用的備份方式管理，不是 PttShop 自行提供的雲端同步。</p>
+
+    <h2>2. 搜尋與瀏覽 PTT</h2>
+    <p>你開始搜尋時，App 會直接向 <a href="https://www.ptt.cc/">PTT 網頁版</a>發出 HTTPS 請求。請求會包含所選看板、搜尋關鍵字及查詢頁碼。地區篩選可能需要進一步讀取文章內容，以判斷交易地區。</p>
+    <p>PTT 會接收到建立連線所需的資料，例如 IP 位址、請求網址及一般連線資訊。開啟文章時，App 使用系統網頁元件；該網頁或其連結的第三方資源可能使用 Cookie、網站儲存或快取，並依各自政策處理資料。</p>
+    <p>App 不要求輸入 PTT 帳號或密碼。請勿將密碼、電話、身分證號或其他敏感資料當作搜尋關鍵字，因為關鍵字會包含在送往 PTT 的請求網址中。</p>
+
+    <h2>3. 地區與裝置權限</h2>
+    <p>地區篩選由你手動選擇，並依公開文章的標題或內文判讀，不使用 GPS 或要求裝置定位權限。目前核心搜尋功能亦不需要取用相機、麥克風或通訊錄。</p>
+    <p>若你主動使用複製文章連結功能，App 會將該連結寫入系統剪貼簿，供你貼到其他 App。</p>
+
+    <h2>4. 廣告與 Google AdMob</h2>
+    <p><strong>目前版本尚未接入 Google AdMob 廣告 SDK。</strong>開發者預計未來可能導入 AdMob；正式啟用前，會依實際 SDK、設定與資料處理方式更新本政策及 App Store 隱私揭露。</p>
+    <p>若未來啟用，依 Google 說明，廣告 SDK 可能處理裝置識別碼、IP 位址衍生的大略位置、廣告曝光與互動、當機及效能等資料，以提供廣告、衡量成效、分析及防止濫用。實際處理內容將取決於當時版本、同意選擇與廣告設定。</p>
+    <p>如未來功能涉及需要同意或系統授權的資料處理，將於啟用前依適用要求提供選擇；本政策本身不等同於你的追蹤授權。非個人化廣告也不必然代表完全不處理資料。</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy?hl=zh-TW">Google 隱私權政策</a></li>
+      <li><a href="https://developers.google.com/admob/ios/privacy/data-disclosure?hl=zh-tw">Google Mobile Ads SDK 資料揭露說明</a></li>
+    </ul>
+
+    <h2>5. 聯絡支援時提供的資料</h2>
+    <p>若你主動寄信至 <a href="mailto:bareo0101@gmail.com">bareo0101@gmail.com</a>，開發者會收到你的電子郵件地址、信件內容，以及你自行提供的裝置資訊、截圖或附件。這些資料用於回覆問題、排查錯誤及處理你的請求，並由電子郵件服務處理與保存。</p>
+    <p>請只提供必要資訊並遮蔽個人資料，不要傳送密碼、驗證碼、付款資訊或身分證件。若希望刪除先前提供的支援資料，可透過同一信箱提出，開發者會在必要的身分確認後，於可行且無須依法保留的範圍內處理。</p>
+
+    <h2>6. 資料保留、刪除與備份</h2>
+    <p>本機設定與紀錄會保留至你移除相關項目或刪除 App。你可在 App 中管理關鍵字與取消收藏；目前沒有獨立清除全部閱讀與搜尋比對紀錄的介面。</p>
+    <p>若要移除整個 App 的本機資料，請使用 iOS 的<strong>刪除 App</strong>功能，而不是會保留文件與資料的「卸載 App」。既有系統備份、郵件副本或第三方網站保存的資料不會因此一併刪除，須依各服務提供的方式另行管理。</p>
+    <p>開發者沒有本機資料的伺服器副本，無法替你讀取、恢復或遠端刪除裝置中的收藏與設定。保留期限與資料權利若涉及 PTT、Google、Apple 或電子郵件服務，請另參閱各服務的政策與聯絡管道。</p>
+
+    <h2>7. 本支援網站</h2>
+    <p>隱私政策與支援頁使用 GitHub Pages 託管，頁面本身沒有加入廣告、分析追蹤程式、聯絡表單或外部字型。你透過郵件連結聯絡支援前，網站不會代你寄送信件。</p>
+    <p>依 GitHub 說明，造訪 GitHub Pages 時，GitHub 會基於安全目的記錄訪客 IP 位址。相關處理請參閱 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隱私權聲明</a>及 <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">GitHub Pages 資料收集說明</a>。</p>
+
+    <h2>8. 安全與第三方服務</h2>
+    <p>App 對 PTT 的請求使用 HTTPS，但任何網路傳輸與裝置儲存都無法保證絕對安全。請保持裝置與作業系統更新，並避免將敏感資料放入關鍵字或問題截圖。</p>
+    <p>第三方網站、文章連結及服務有其獨立的資料處理方式；本政策不代替其隱私政策。PttShop 不提供付款或交易託管，也不會要求你提交交易對象的銀行或身分資料。</p>
+
+    <h2>9. 政策更新與聯絡</h2>
+    <p>若功能、第三方服務或資料處理方式改變，會於此頁更新政策與生效日期；重大變更將視情況以適當方式告知。你可隨時透過本頁查看最新內容。</p>
+    <p>如對本政策、資料處理或隱私請求有疑問，請寄信至 <a href="mailto:bareo0101@gmail.com?subject=PttShop%20%E9%9A%B1%E7%A7%81%E6%AC%8A%E8%A9%A2%E5%95%8F">bareo0101@gmail.com</a>，或前往 <a href="Support_zh-Hant.html">PttShop 支援頁</a>。</p>
+    <footer>
+      <p>PttShop · Liang-Zong Shie<br />
+      聯絡信箱：<a href="mailto:bareo0101@gmail.com">bareo0101@gmail.com</a></p>
+      <p>PttShop 是獨立開發的工具，非 PTT 官方 App，亦非交易平台。</p>
+    </footer>
+  </main>
+</body>
+</html>
