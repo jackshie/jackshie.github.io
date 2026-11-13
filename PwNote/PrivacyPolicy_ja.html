@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>プライバシーポリシー</title>
+  <meta name="description" content="PwNote のプライバシーポリシー" />
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 18px 60px;
+    }
+    h1 { font-size: 2rem; margin: 0 0 10px; }
+    h2 { margin-top: 28px; font-size: 1.25rem; }
+    .meta { opacity: .85; margin-bottom: 18px; }
+    .meta strong { display: inline-block; min-width: 120px; }
+    ul { padding-left: 18px; }
+    .note { padding: 12px 14px; border: 1px solid rgba(127,127,127,.35); border-radius: 10px; }
+    a { word-break: break-word; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>プライバシーポリシー</h1>
+
+    <div class="meta">
+      <div><strong>施行日：</strong> 2026-03-28</div>
+      <div><strong>アプリ名：</strong> PwNote</div>
+      <div><strong>開発者：</strong> Liang-Zong Shie</div>
+      <div><strong>連絡先：</strong> <a href="mailto:pwnote.service@gmail.com">pwnote.service@gmail.com</a></div>
+    </div>
+
+    <h2>1. 概要</h2>
+    <p>
+      PwNote はプライバシー保護を重視して設計されています。アプリは保管庫データを
+      <strong>お使いの端末内にローカル保存</strong>します。
+      当社はパスワードや保管庫コンテンツを保存するサーバーを<strong>運用していません</strong>。
+      また、アカウント作成も<strong>不要</strong>です。
+    </p>
+
+    <h2>2. 当社が収集しない情報</h2>
+    <p>当社は以下を<strong>収集・保存・送信しません</strong>：</p>
+    <ul>
+      <li>パスワード、メモ、保管庫項目</li>
+      <li>個人識別情報（氏名、メールアドレス、電話番号など）</li>
+      <li>広告識別子（IDFA）または追跡目的の端末識別情報</li>
+      <li>位置情報、連絡先、写真、その他無関係な端末データ</li>
+    </ul>
+    <p><strong>要約：</strong> エクスポートやバックアップを行わない限り、保管庫データは端末内に留まります。</p>
+
+    <h2>3. データ保存とセキュリティ</h2>
+    <p>
+      保管庫データは iPhone/iPad にローカル保存され、端末のセキュリティ機能と
+      <strong>マスターパスワード</strong>で保護されます。
+    </p>
+    <p>
+      <strong>マスターパスワード</strong><br />
+      PwNote を初めて開く際は、<strong>マスターパスワード</strong>の作成が必要です。
+      マスターパスワードは<strong>お使いの端末上のみ</strong>で使用され、アプリのロック解除と、
+      エクスポートした暗号化バックアップファイルの暗号化／復号に使われます。
+      当社はマスターパスワードを収集・保存・送信せず、アクセスや復旧もできません。
+    </p>
+    <p>
+      <strong>復旧キー</strong><br />
+      初期設定中に PwNote は<strong>復旧キー</strong>を生成し、<strong>一度だけ</strong>表示します。
+      復旧キーは当社へ送信されず、当社サーバーにも保存されません
+      （当社は保管庫保存用のサーバーを運用していません）。
+      復旧キーはご自身で安全に保管してください。
+    </p>
+    <p>
+      マスターパスワードを忘れた場合、復旧キーを使ってマスターパスワードをリセットし、アクセスを回復できます。
+      当社はマスターパスワードや復旧キーを収集・保存・送信しておらず、代わりに復旧することもできません。
+    </p>
+    <p class="note">
+      マスターパスワードと復旧キーの両方を失うと、保管庫へのアクセスを永久に失う可能性があります。
+    </p>
+    <p>
+      <strong>生体認証によるロック解除（Face ID / Touch ID）</strong><br />
+      お使いの端末が Face ID または Touch ID に対応している場合、PwNote は利便性向上のため、
+      マスターパスワードに加えて<strong>Face ID / Touch ID</strong>でアプリを解除するオプションを提供する場合があります。
+      このオプションはアプリ設定で有効／無効を切り替えられます。
+    </p>
+    <p>
+      生体データは iOS により処理され、PwNote から<strong>アクセスできません</strong>。
+      アプリが受け取るのはシステムからの「成功」または「失敗」の結果のみで、
+      生体情報を収集・保存・送信することはありません。
+    </p>
+
+    <h2>4. バックアップ、インポート、エクスポート</h2>
+    <p>
+      PwNote では保管庫を<strong>暗号化ファイル</strong>としてエクスポート／インポートできます。
+      保存先はユーザーが選択します。
+    </p>
+    <h3>iOS「ファイル」アプリ / クラウドストレージの利用</h3>
+    <p>
+      暗号化バックアップを iOS の<strong>ファイル</strong>アプリに保存する場合、
+      端末設定やインストール済みアプリに応じて、<strong>iCloud Drive</strong>や
+      サードパーティのクラウドサービスなど、選択した場所に保存されることがあります。
+    </p>
+    <ul>
+      <li>バックアップに利用するクラウドストレージはユーザーが管理し、各事業者のプライバシーポリシーが適用されます。</li>
+      <li>当社はバックアップのコピーを受け取らず、ユーザーのクラウドアカウントにもアクセスしません。</li>
+    </ul>
+
+    <h2>5. ネットワークアクセス</h2>
+    <p>
+      PwNote は主に<strong>オフライン</strong>で動作するよう設計されています。
+      ネットワークアクセスは、Apple の<strong>アプリ内課金</strong>（Pro 機能の購入など）、
+      <strong>購入の復元</strong>、およびユーザーが開始したその他の操作に関連して必要になる場合があります。
+    </p>
+
+    <h2>6. アプリ内課金</h2>
+    <p>
+      PwNote はアプリ内課金（Pro 機能の解放など）を提供しています。決済は App Store を通じて
+      <strong>Apple</strong> が処理します。当社はカード情報を受け取りません。
+      一部情報は Apple のプライバシーポリシーに従って処理される場合があります。
+    </p>
+
+    <h2>7. 分析、追跡、広告</h2>
+    <ul>
+      <li>当社は広告を<strong>表示しません</strong>。</li>
+      <li>サードパーティの広告 SDK を<strong>使用しません</strong>。</li>
+      <li>他アプリや Web サイトをまたいだ追跡を<strong>行いません</strong>。</li>
+    </ul>
+
+    <h2>8. サードパーティコード</h2>
+    <p>
+      PwNote には、暗号化、ワンタイムパスワード生成、UI コンポーネントなどの機能提供のため、
+      サードパーティのオープンソースライブラリが含まれる場合があります。
+      これらは端末上でローカルに動作し、保管庫内容を当社へ収集・送信する目的では使用しません。
+    </p>
+
+    <h2>9. 子どものプライバシー</h2>
+    <p>
+      PwNote は 13 歳未満の子どもを対象としていません。
+      当社は子どもの個人情報を故意に収集しません。
+    </p>
+
+    <h2>10. ユーザーの選択と管理</h2>
+    <p>ユーザーはいつでもデータを管理できます：</p>
+    <ul>
+      <li>アプリ内で保管庫項目を削除する</li>
+      <li>アプリを削除してローカルデータを削除する</li>
+      <li>ファイル / iCloud Drive / 利用中クラウドサービスからエクスポート済みバックアップを削除する</li>
+    </ul>
+
+    <h2>11. 本ポリシーの変更</h2>
+    <p>
+      当社は本プライバシーポリシーを随時更新する場合があります。
+      変更がある場合は、上記の「施行日」を更新します。
+      変更後もアプリを継続利用することで、更新後ポリシーに同意したものとみなされます。
+    </p>
+
+    <h2>12. お問い合わせ</h2>
+    <p>
+      本プライバシーポリシーに関するご質問は、以下までご連絡ください：
+      <a href="mailto:pwnote.service@gmail.com">pwnote.service@gmail.com</a>
+    </p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PwNote Support</title>
+  <meta name="description" content="Support-Seite für PwNote" />
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; line-height: 1.6; }
+    main { max-width: 860px; margin: 0 auto; padding: 32px 18px 60px; }
+    h1 { font-size: 2rem; margin: 0 0 10px; }
+    h2 { margin-top: 28px; font-size: 1.25rem; }
+    h3 { margin-top: 20px; font-size: 1.05rem; }
+    .meta { opacity: .85; margin-bottom: 18px; }
+    .meta strong { display: inline-block; min-width: 120px; }
+    ul { padding-left: 18px; }
+    li { margin: 2px 0; }
+    .note { padding: 12px 14px; border: 1px solid rgba(127,127,127,.35); border-radius: 10px; margin-top: 10px; }
+    a { word-break: break-word; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>PwNote Support</h1>
+    <div class="meta">
+      <div><strong>App-Name:</strong> PwNote</div>
+      <div><strong>Entwickler:</strong> Liang-Zong Shie</div>
+      <div><strong>Kontakt:</strong> <a href="mailto:pwnote.service@gmail.com">pwnote.service@gmail.com</a></div>
+    </div>
+
+    <h2>1. Überblick</h2>
+    <p>PwNote ist ein Offline-Passwortmanager. Deine Passwörter und sensiblen Notizen werden lokal auf dem Gerät gespeichert. Es gibt kein Konto, keine Cloud-Synchronisierung und der Tresor ist mit deinem Master-Passwort verschlüsselt.</p>
+    <div class="note"><strong>Wichtig:</strong> PwNote hat keinen Zugriff auf deinen Tresor, dein Master-Passwort oder deinen Wiederherstellungsschlüssel. Wenn du beides verlierst, können die Daten nicht wiederhergestellt werden.</div>
+
+    <h2>2. Erste Schritte</h2>
+    <h3>2.1 Erster Start</h3>
+    <ul>
+      <li>Lege beim ersten Öffnen ein <strong>Master-Passwort</strong> fest.</li>
+      <li>PwNote erzeugt einen <strong>Wiederherstellungsschlüssel</strong> und zeigt ihn <strong>nur einmal</strong>.</li>
+      <li>Bewahre den Schlüssel an einem sicheren Ort auf.</li>
+      <li>Danach kannst du Kategorien und Einträge erstellen.</li>
+    </ul>
+
+    <h3>2.2 Face ID / Touch ID-Schnellentsperrung</h3>
+    <p>
+      Auf unterstützten Geräten kannst du in den Einstellungen die <strong>Face ID / Touch ID-Schnellentsperrung</strong> aktivieren, um PwNote schneller zu entsperren.
+      Das Master-Passwort bleibt die zentrale Zugangsinformation und die Grundlage für Backup-Verschlüsselung und -Entschlüsselung.
+    </p>
+
+    <h3>2.3 Free vs Pro</h3>
+    <p><strong>Limits der kostenlosen Version:</strong></p>
+    <ul><li>Bis zu <strong>5 Kategorien</strong></li><li>Bis zu <strong>30 Einträge</strong></li></ul>
+    <p><strong>Pro (In-App-Kauf) schaltet frei:</strong></p>
+    <ul>
+      <li><strong>Unbegrenzte Einträge</strong></li>
+      <li><strong>Wiederherstellungsschlüssel neu erzeugen</strong> (alter Schlüssel wird ungültig)</li>
+    </ul>
+
+    <h2>3. Backup und Wiederherstellung</h2>
+    <p>PwNote kann eine verschlüsselte Backup-Datei exportieren und importieren. Den Speicherort wählst du in der iOS-Dateien-App.</p>
+    <h3>3.1 Verschlüsseltes Backup erstellen</h3>
+    <ol>
+      <li>PwNote öffnen und mit Master-Passwort entsperren.</li>
+      <li>In den Einstellungen zu <strong>Backup / Export</strong> gehen.</li>
+      <li><strong>Verschlüsseltes Backup exportieren</strong> wählen.</li>
+      <li>Im Dateidialog Ordner wählen und speichern.</li>
+    </ol>
+
+    <h3>3.2 Aus verschlüsseltem Backup wiederherstellen</h3>
+    <ol>
+      <li>PwNote auf dem Zielgerät installieren.</li>
+      <li>Ersteinrichtung abschließen und aktuelles Master-Passwort festlegen.</li>
+      <li>Zu <strong>Import / Wiederherstellen</strong> in den Einstellungen gehen.</li>
+      <li>Die verschlüsselte Backup-Datei auswählen.</li>
+      <li>PwNote entschlüsselt automatisch mit dem <strong>aktuellen Master-Passwort</strong>. Ist es anders als beim Export, schlägt die Wiederherstellung fehl.</li>
+    </ol>
+    <div class="note"><strong>Wichtig:</strong> Für eine erfolgreiche Wiederherstellung muss das aktuelle Master-Passwort mit dem beim Export verwendeten Passwort übereinstimmen.</div>
+
+    <h2>4. Pro-Kauf und Käufe wiederherstellen</h2>
+    <h3>4.1 Pro kaufen</h3>
+    <ol>
+      <li>Zu <strong>Pro / Upgrade</strong> gehen.</li>
+      <li>Funktionen prüfen und <strong>Kaufen</strong> tippen.</li>
+      <li>In-App-Kauf mit Apple ID bestätigen.</li>
+      <li>Nach erfolgreichem Kauf werden Pro-Funktionen automatisch freigeschaltet.</li>
+    </ol>
+
+    <h3>4.2 Pro auf neuem Gerät wiederherstellen</h3>
+    <ol>
+      <li>PwNote auf neuem/neu installiertem Gerät öffnen.</li>
+      <li>Zu <strong>Pro / Upgrade</strong> gehen.</li>
+      <li><strong>Käufe wiederherstellen</strong> tippen.</li>
+      <li>Prüfen, dass dieselbe Apple ID und Internetverbindung aktiv sind.</li>
+      <li>Nach Abschluss sollten Pro-Funktionen wieder verfügbar sein.</li>
+    </ol>
+
+    <h2>5. Häufige Fragen</h2>
+    <h3>5.1 Ich habe mein Master-Passwort vergessen. Können Sie es zurücksetzen?</h3>
+    <p>Nein. Aus Sicherheitsgründen können wir nicht auf dein Master-Passwort zugreifen. Zugriff ist nur mit dem <strong>Wiederherstellungsschlüssel</strong> möglich.</p>
+    <h3>5.2 Ich habe Master-Passwort und Wiederherstellungsschlüssel verloren. Können Sie Daten wiederherstellen?</h3>
+    <p>Leider nein. Wir speichern deinen Tresor nicht auf einem Server und kennen deine Schlüssel nicht.</p>
+    <h3>5.3 Synchronisiert PwNote zwischen Geräten?</h3>
+    <p>Nein. Verwende den verschlüsselten Export/Import über die Dateien-App.</p>
+    <h3>5.4 Unterstützt PwNote SSO und OTP?</h3>
+    <p>PwNote kann SSO- und OTP(TOTP)-bezogene Einträge speichern. Es verbindet sich jedoch nicht direkt mit externen Identitätsanbietern.</p>
+
+    <h2>6. Datenschutzerklärung</h2>
+    <p>Details findest du in der <a href="https://jackshie.github.io/PwNote/PrivacyPolicy_de.html">PwNote Datenschutzerklärung</a>.</p>
+
+    <h2>7. Kontakt</h2>
+    <p>Wenn du Hilfe brauchst, einen Bug gefunden hast oder eine Funktion vorschlagen möchtest:</p>
+    <ul><li><strong>E-Mail:</strong> <a href="mailto:pwnote.service@gmail.com">pwnote.service@gmail.com</a></li></ul>
+    <p>Hilfreich bei Fehlermeldungen:</p>
+    <ul>
+      <li>iOS-Version und Gerätemodell</li>
+      <li>PwNote-Version</li>
+      <li>Kurze Beschreibung der Schritte bis zum Fehler</li>
+      <li>Fehlermeldungen oder Screenshots</li>
+    </ul>
+  </main>
+</body>
+</html>

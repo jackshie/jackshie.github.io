@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PwNote 지원</title>
+  <meta name="description" content="PwNote 지원 페이지" />
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; line-height: 1.6; }
+    main { max-width: 860px; margin: 0 auto; padding: 32px 18px 60px; }
+    h1 { font-size: 2rem; margin: 0 0 10px; }
+    h2 { margin-top: 28px; font-size: 1.25rem; }
+    h3 { margin-top: 20px; font-size: 1.05rem; }
+    .meta { opacity: .85; margin-bottom: 18px; }
+    .meta strong { display: inline-block; min-width: 120px; }
+    ul { padding-left: 18px; }
+    li { margin: 2px 0; }
+    .note { padding: 12px 14px; border: 1px solid rgba(127,127,127,.35); border-radius: 10px; margin-top: 10px; }
+    a { word-break: break-word; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>PwNote 지원</h1>
+    <div class="meta">
+      <div><strong>앱 이름:</strong> PwNote</div>
+      <div><strong>개발자:</strong> Liang-Zong Shie</div>
+      <div><strong>연락처:</strong> <a href="mailto:pwnote.service@gmail.com">pwnote.service@gmail.com</a></div>
+    </div>
+
+    <h2>1. 개요</h2>
+    <p>PwNote는 오프라인 비밀번호 관리자입니다. 민감한 데이터는 기기에 로컬 저장되며, 계정/클라우드 동기화 없이 마스터 비밀번호로 암호화 보호됩니다.</p>
+    <div class="note"><strong>중요:</strong> PwNote는 보관함, 마스터 비밀번호, 복구 키에 접근할 수 없습니다. 둘 다 분실하면 데이터는 복구할 수 없습니다.</div>
+
+    <h2>2. 시작하기</h2>
+    <h3>2.1 첫 실행</h3>
+    <ul>
+      <li>처음 실행 시 <strong>마스터 비밀번호</strong>를 설정하세요.</li>
+      <li>PwNote는 <strong>복구 키</strong>를 생성하고 <strong>한 번만</strong> 표시합니다.</li>
+      <li>복구 키를 안전한 곳에 보관하세요.</li>
+      <li>설정 후 카테고리와 항목을 생성할 수 있습니다.</li>
+    </ul>
+
+    <h3>2.2 Face ID / Touch ID 빠른 잠금 해제</h3>
+    <p>
+      지원되는 기기에서는 설정에서 <strong>Face ID / Touch ID 빠른 잠금 해제</strong>를 활성화해 PwNote를 더 빠르게 잠금 해제할 수 있습니다.
+      마스터 비밀번호는 여전히 핵심 인증 정보이며 백업 암호화/복호화의 기반입니다.
+    </p>
+
+    <h3>2.3 무료 / Pro</h3>
+    <p><strong>무료 버전 제한:</strong></p>
+    <ul><li><strong>카테고리 5개</strong>까지</li><li><strong>항목 30개</strong>까지</li></ul>
+    <p><strong>Pro(인앱 구매) 기능:</strong></p>
+    <ul>
+      <li><strong>무제한 항목</strong></li>
+      <li><strong>복구 키 재생성</strong> (기존 키 무효화)</li>
+    </ul>
+
+    <h2>3. 백업 및 복원</h2>
+    <p>PwNote는 암호화된 백업 파일의 내보내기/가져오기를 지원합니다. iOS 파일 앱에서 저장 위치를 직접 선택합니다.</p>
+    <h3>3.1 암호화 백업 만들기</h3>
+    <ol>
+      <li>PwNote를 열고 마스터 비밀번호로 잠금 해제합니다.</li>
+      <li>설정의 <strong>백업 / 내보내기</strong>로 이동합니다.</li>
+      <li><strong>암호화 백업 내보내기</strong>를 선택합니다.</li>
+      <li>파일 시트에서 폴더를 선택해 저장합니다.</li>
+    </ol>
+
+    <h3>3.2 암호화 백업에서 복원</h3>
+    <ol>
+      <li>복원할 기기에 PwNote를 설치합니다.</li>
+      <li>현재 마스터 비밀번호로 초기 설정을 완료합니다.</li>
+      <li>설정의 <strong>가져오기 / 복원</strong>으로 이동합니다.</li>
+      <li>파일 앱에서 암호화 백업 파일을 선택합니다.</li>
+      <li>PwNote는 <strong>현재 마스터 비밀번호</strong>로 자동 복호화를 시도합니다. 백업 생성 당시 비밀번호와 다르면 복원에 실패합니다.</li>
+    </ol>
+    <div class="note"><strong>중요:</strong> 복원을 성공하려면 현재 마스터 비밀번호가 백업 생성 시 사용한 비밀번호와 같아야 합니다.</div>
+
+    <h2>4. Pro 구매 및 구매 복원</h2>
+    <h3>4.1 Pro 구매</h3>
+    <ol>
+      <li>PwNote에서 <strong>Pro / 업그레이드</strong>로 이동합니다.</li>
+      <li>기능을 확인하고 <strong>구매</strong>를 누릅니다.</li>
+      <li>Apple ID로 인앱 구매를 확인합니다.</li>
+      <li>구매 성공 후 Pro 기능이 자동으로 열립니다.</li>
+    </ol>
+
+    <h3>4.2 새 기기에서 Pro 복원</h3>
+    <ol>
+      <li>새 기기(또는 재설치 기기)에서 PwNote를 엽니다.</li>
+      <li><strong>Pro / 업그레이드</strong>로 이동합니다.</li>
+      <li><strong>구매 복원</strong>을 누릅니다.</li>
+      <li>원래 구매한 Apple ID 로그인 및 네트워크 연결을 확인합니다.</li>
+      <li>복원 완료 후 Pro 기능을 다시 사용할 수 있습니다.</li>
+    </ol>
+    <div class="note"><strong>참고:</strong> 복원 후에도 Pro가 잠금 해제되지 않으면 앱 재시작, Apple ID 확인, 네트워크 확인을 시도하세요.</div>
+
+    <h2>5. 자주 묻는 질문</h2>
+    <h3>5.1 마스터 비밀번호를 잊었습니다. 재설정해 줄 수 있나요?</h3>
+    <p>아니요. 보안상 당사는 마스터 비밀번호에 접근하거나 재설정할 수 없습니다. <strong>복구 키</strong>로만 접근을 되찾을 수 있습니다.</p>
+    <h3>5.2 마스터 비밀번호와 복구 키를 모두 잃어버렸습니다. 복구 가능할까요?</h3>
+    <p>불가능합니다. 당사는 서버에 보관함을 저장하지 않으며 키를 알 수 없습니다.</p>
+    <h3>5.3 기기 간 데이터 동기화를 지원하나요?</h3>
+    <p>클라우드 동기화/온라인 계정을 사용하지 않습니다. 파일 앱의 암호화 백업 내보내기/가져오기를 이용하세요.</p>
+    <h3>5.4 SSO와 OTP를 지원하나요?</h3>
+    <p>SSO 로그인 및 TOTP 항목 저장을 지원합니다. 단, 외부 ID 제공자와 직접 연동하지는 않습니다.</p>
+
+    <h2>6. 개인정보 처리방침</h2>
+    <p>자세한 내용은 <a href="https://jackshie.github.io/PwNote/PrivacyPolicy_ko.html">PwNote 개인정보 처리방침</a>을 확인하세요.</p>
+
+    <h2>7. 문의</h2>
+    <p>도움이 필요하거나 버그 신고/기능 제안을 원하시면 연락하세요:</p>
+    <ul><li><strong>Email:</strong> <a href="mailto:pwnote.service@gmail.com">pwnote.service@gmail.com</a></li></ul>
+    <p>문제 신고 시 다음 정보를 함께 보내주시면 도움이 됩니다:</p>
+    <ul>
+      <li>iOS 버전 및 기기 모델</li>
+      <li>사용 중인 PwNote 버전</li>
+      <li>문제 발생 당시의 간단한 상황 설명</li>
+      <li>오류 메시지/스크린샷(가능한 경우)</li>
+    </ul>
+  </main>
+</body>
+</html>

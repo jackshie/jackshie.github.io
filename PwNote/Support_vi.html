@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hỗ trợ PwNote</title>
+  <meta name="description" content="Trang hỗ trợ cho PwNote" />
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; line-height: 1.6; }
+    main { max-width: 860px; margin: 0 auto; padding: 32px 18px 60px; }
+    h1 { font-size: 2rem; margin: 0 0 10px; }
+    h2 { margin-top: 28px; font-size: 1.25rem; }
+    h3 { margin-top: 20px; font-size: 1.05rem; }
+    .meta { opacity: .85; margin-bottom: 18px; }
+    .meta strong { display: inline-block; min-width: 120px; }
+    ul { padding-left: 18px; }
+    li { margin: 2px 0; }
+    .note { padding: 12px 14px; border: 1px solid rgba(127,127,127,.35); border-radius: 10px; margin-top: 10px; }
+    a { word-break: break-word; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Hỗ trợ PwNote</h1>
+    <div class="meta">
+      <div><strong>Tên ứng dụng:</strong> PwNote</div>
+      <div><strong>Nhà phát triển:</strong> Liang-Zong Shie</div>
+      <div><strong>Liên hệ:</strong> <a href="mailto:pwnote.service@gmail.com">pwnote.service@gmail.com</a></div>
+    </div>
+
+    <h2>1. Tổng quan</h2>
+    <p>PwNote là trình quản lý mật khẩu ngoại tuyến. Dữ liệu nhạy cảm được lưu cục bộ trên thiết bị, không cần tài khoản, không đồng bộ đám mây, và kho dữ liệu được bảo vệ bằng mật khẩu chính.</p>
+    <div class="note"><strong>Quan trọng:</strong> PwNote không thể truy cập kho dữ liệu, mật khẩu chính hoặc khóa khôi phục của bạn. Nếu mất cả mật khẩu chính và khóa khôi phục, dữ liệu không thể khôi phục.</div>
+
+    <h2>2. Bắt đầu</h2>
+    <h3>2.1 Lần mở đầu tiên</h3>
+    <ul>
+      <li>Đặt <strong>Mật khẩu chính</strong> khi mở PwNote lần đầu.</li>
+      <li>PwNote tạo <strong>Khóa khôi phục</strong> và chỉ hiển thị <strong>một lần</strong>.</li>
+      <li>Lưu khóa khôi phục ở nơi an toàn (ghi chú bảo mật, bản in, hoặc kho tin cậy khác).</li>
+      <li>Sau khi thiết lập, bạn có thể tạo danh mục và mục (đăng nhập, ghi chú...).</li>
+    </ul>
+
+    <h3>2.2 Mở khóa nhanh Face ID / Touch ID</h3>
+    <p>
+      Trên thiết bị được hỗ trợ, bạn có thể bật <strong>mở khóa nhanh Face ID / Touch ID</strong> trong Cài đặt để mở khóa PwNote nhanh hơn.
+      Mật khẩu chính vẫn là thông tin xác thực cốt lõi và là nền tảng cho việc mã hóa/giải mã bản sao lưu.
+    </p>
+
+    <h3>2.3 Bản miễn phí và Pro</h3>
+    <p><strong>Giới hạn bản miễn phí:</strong></p>
+    <ul><li>Tối đa <strong>5 danh mục</strong></li><li>Tối đa <strong>30 mục</strong></li></ul>
+    <p><strong>Pro (Mua trong ứng dụng) mở khóa:</strong></p>
+    <ul>
+      <li><strong>Không giới hạn mục</strong> (không giới hạn danh mục và mục trong kho)</li>
+      <li><strong>Tạo lại Khóa khôi phục</strong> (khóa cũ sẽ mất hiệu lực)</li>
+    </ul>
+
+    <h2>3. Sao lưu và khôi phục</h2>
+    <p>PwNote cho phép xuất/nhập tệp sao lưu đã mã hóa. Bạn chọn nơi lưu bằng ứng dụng Tệp iOS (ví dụ iCloud Drive hoặc vị trí khác).</p>
+    <h3>3.1 Tạo bản sao lưu mã hóa</h3>
+    <ol>
+      <li>Mở PwNote và mở khóa bằng mật khẩu chính.</li>
+      <li>Vào phần <strong>Sao lưu / Xuất</strong> trong Cài đặt.</li>
+      <li>Chọn <strong>Xuất bản sao lưu mã hóa</strong>.</li>
+      <li>Trong bảng Tệp, chọn thư mục và lưu tệp.</li>
+    </ol>
+    <h3>3.2 Khôi phục từ bản sao lưu mã hóa</h3>
+    <ol>
+      <li>Cài PwNote trên thiết bị cần khôi phục.</li>
+      <li>Mở PwNote và hoàn tất thiết lập ban đầu với mật khẩu chính hiện tại.</li>
+      <li>Vào phần <strong>Nhập / Khôi phục</strong> trong Cài đặt.</li>
+      <li>Chọn tệp sao lưu mã hóa từ ứng dụng Tệp.</li>
+      <li>PwNote sẽ tự giải mã bằng <strong>mật khẩu chính hiện tại</strong>. Nếu khác mật khẩu lúc tạo sao lưu, khôi phục sẽ thất bại.</li>
+    </ol>
+    <div class="note"><strong>Quan trọng:</strong> Muốn khôi phục thành công, mật khẩu chính hiện tại phải trùng với mật khẩu đã dùng khi xuất sao lưu.</div>
+
+    <h2>4. Mua Pro và khôi phục mua hàng</h2>
+    <h3>4.1 Mua Pro</h3>
+    <ol>
+      <li>Mở PwNote và vào phần <strong>Pro / Nâng cấp</strong>.</li>
+      <li>Xem tính năng Pro và nhấn <strong>Mua</strong>.</li>
+      <li>Xác nhận mua bằng Apple ID.</li>
+      <li>Sau khi mua thành công, tính năng Pro sẽ được mở khóa tự động.</li>
+    </ol>
+
+    <h3>4.2 Khôi phục Pro trên thiết bị mới</h3>
+    <ol>
+      <li>Mở PwNote trên thiết bị mới hoặc thiết bị vừa cài lại.</li>
+      <li>Vào phần <strong>Pro / Nâng cấp</strong>.</li>
+      <li>Nhấn <strong>Khôi phục mua hàng</strong>.</li>
+      <li>Đảm bảo đang đăng nhập đúng Apple ID đã mua và có kết nối mạng.</li>
+      <li>Sau khi hoàn tất, tính năng Pro sẽ hoạt động lại.</li>
+    </ol>
+    <div class="note"><strong>Lưu ý:</strong> Nếu Pro chưa mở khóa sau khi mua/khôi phục, hãy thử khởi động lại ứng dụng, kiểm tra Apple ID và kết nối mạng. Nếu vẫn lỗi, liên hệ hỗ trợ kèm ngày mua và ảnh chụp màn hình.</div>
+
+    <h2>5. Câu hỏi thường gặp</h2>
+    <h3>5.1 Tôi quên mật khẩu chính. Bạn có thể đặt lại giúp không?</h3>
+    <p>Không. Vì lý do bảo mật, chúng tôi không thể truy cập hoặc đặt lại mật khẩu chính của bạn. Bạn chỉ có thể dùng <strong>Khóa khôi phục</strong>.</p>
+    <h3>5.2 Tôi mất cả mật khẩu chính và khóa khôi phục. Có thể cứu dữ liệu không?</h3>
+    <p>Rất tiếc là không. Chúng tôi không lưu kho dữ liệu của bạn trên máy chủ và không có khóa của bạn.</p>
+    <h3>5.3 PwNote có đồng bộ dữ liệu giữa các thiết bị không?</h3>
+    <p>PwNote không dùng đồng bộ đám mây hay tài khoản trực tuyến. Hãy dùng xuất/nhập sao lưu mã hóa qua ứng dụng Tệp.</p>
+    <h3>5.4 PwNote có hỗ trợ SSO và OTP không?</h3>
+    <p>PwNote lưu và quản lý thông tin đăng nhập, bao gồm SSO và OTP (TOTP). Tuy nhiên PwNote không kết nối trực tiếp đến nhà cung cấp định danh bên ngoài.</p>
+
+    <h2>6. Chính sách quyền riêng tư</h2>
+    <p>Xem chi tiết tại <a href="https://jackshie.github.io/PwNote/PrivacyPolicy_vi.html">Chính sách quyền riêng tư PwNote</a>.</p>
+
+    <h2>7. Liên hệ</h2>
+    <p>Nếu cần hỗ trợ, phát hiện lỗi hoặc muốn đề xuất tính năng, hãy liên hệ:</p>
+    <ul><li><strong>Email:</strong> <a href="mailto:pwnote.service@gmail.com">pwnote.service@gmail.com</a></li></ul>
+    <p>Khi báo lỗi, vui lòng cung cấp:</p>
+    <ul>
+      <li>Phiên bản iOS và model thiết bị</li>
+      <li>Phiên bản PwNote đang dùng</li>
+      <li>Mô tả ngắn thao tác khi lỗi xảy ra</li>
+      <li>Thông báo lỗi hoặc ảnh chụp màn hình (nếu có)</li>
+    </ul>
+  </main>
+</body>
+</html>

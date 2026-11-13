@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PwNote 支援</title>
+  <meta name="description" content="PwNote 支援頁面" />
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 18px 60px;
+    }
+    h1 { font-size: 2rem; margin: 0 0 10px; }
+    h2 { margin-top: 28px; font-size: 1.25rem; }
+    h3 { margin-top: 20px; font-size: 1.05rem; }
+    .meta { opacity: .85; margin-bottom: 18px; }
+    .meta strong { display: inline-block; min-width: 120px; }
+    ul { padding-left: 18px; }
+    li { margin: 2px 0; }
+    .note {
+      padding: 12px 14px;
+      border: 1px solid rgba(127,127,127,.35);
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    a { word-break: break-word; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>PwNote 支援</h1>
+
+    <div class="meta">
+      <div><strong>App 名稱：</strong> PwNote</div>
+      <div><strong>開發者：</strong> Liang-Zong Shie</div>
+      <div><strong>聯絡方式：</strong> <a href="mailto:pwnote.service@gmail.com">pwnote.service@gmail.com</a></div>
+    </div>
+
+    <h2>1. 概述</h2>
+    <p>
+      PwNote 是離線密碼管理工具，設計目標是將你的密碼與敏感備註保存在本機裝置。
+      不需要帳號、沒有雲端同步，你的保管庫會以主密碼加密保護。
+    </p>
+
+    <div class="note">
+      <strong>重要：</strong> PwNote 無法存取你的保管庫、主密碼或復原金鑰。
+      若同時遺失主密碼與復原金鑰，資料將無法復原。
+    </div>
+
+    <h2>2. 開始使用</h2>
+    <h3>2.1 第一次啟動</h3>
+    <ul>
+      <li>首次開啟 PwNote 時請先設定<strong>主密碼</strong>。</li>
+      <li>PwNote 會產生<strong>復原金鑰</strong>，且<strong>只顯示一次</strong>。</li>
+      <li>請將復原金鑰保存於安全位置（例如安全筆記、紙本備份或其他可信保管庫）。</li>
+      <li>設定完成後即可開始建立分類與項目（登入資料、備註等）。</li>
+    </ul>
+
+    <h3>2.2 Face ID / Touch ID 快速解鎖</h3>
+    <p>
+      在支援的裝置上，你可於設定中啟用<strong>Face ID / Touch ID 快速解鎖</strong>，以更快速解鎖 PwNote。
+      主密碼仍是核心憑證，並且仍是備份加密與解密的基礎。
+    </p>
+
+    <h3>2.3 免費版與 Pro 版</h3>
+    <p><strong>免費版限制：</strong></p>
+    <ul>
+      <li>最多 <strong>5 個分類</strong></li>
+      <li>最多 <strong>30 筆項目</strong></li>
+    </ul>
+    <p><strong>Pro 版（App 內購）解鎖：</strong></p>
+    <ul>
+      <li><strong>無上限項目</strong>（分類與保管庫項目不受限）</li>
+      <li><strong>重新產生復原金鑰</strong>（新金鑰產生後，舊金鑰失效）</li>
+    </ul>
+
+    <h2>3. 備份與還原</h2>
+    <p>
+      PwNote 支援匯出與匯入加密備份檔。你可透過 iOS 檔案 App 自行選擇儲存位置
+      （例如 iCloud Drive 或其他位置）。
+    </p>
+
+    <h3>3.1 建立加密備份</h3>
+    <ol>
+      <li>開啟 PwNote 並使用主密碼解鎖。</li>
+      <li>前往設定中的<strong>備份 / 匯出</strong>區塊（或有提供備份的選單）。</li>
+      <li>選擇<strong>匯出加密備份</strong>。</li>
+      <li>在檔案選擇視窗中選擇資料夾（例如 iCloud Drive 或「我的 iPhone」）並儲存檔案。</li>
+    </ol>
+
+    <h3>3.2 從加密備份還原</h3>
+    <ol>
+      <li>在欲還原資料的裝置上安裝 PwNote。</li>
+      <li>開啟 PwNote，完成初始化流程並設定目前主密碼。</li>
+      <li>前往設定中的<strong>匯入 / 還原</strong>區塊。</li>
+      <li>從檔案 App 選擇加密備份檔。</li>
+      <li>
+        PwNote 會使用<strong>目前主密碼</strong>自動嘗試解密備份。
+        若目前主密碼與建立備份時使用的密碼不同，還原會失敗，資料無法載入。
+      </li>
+    </ol>
+    <div class="note">
+      <strong>重要：</strong>要成功還原加密備份，你在 PwNote 的目前主密碼必須與匯出備份時使用的主密碼一致。
+      若你在建立備份後更改過主密碼，還原前需先改回原本密碼。
+    </div>
+
+    <h2>4. 購買 Pro 與回復購買</h2>
+    <h3>4.1 購買 Pro</h3>
+    <ol>
+      <li>開啟 PwNote，前往<strong>Pro / 升級</strong>區塊（例如設定中）。</li>
+      <li>查看 Pro 功能後，點選<strong>購買</strong>按鈕。</li>
+      <li>使用 Apple ID 確認 App 內購買。</li>
+      <li>購買成功後，Pro 功能應會自動解鎖。</li>
+    </ol>
+
+    <h3>4.2 在新裝置回復 Pro</h3>
+    <p>
+      若你重新安裝 PwNote，或更換到使用相同 Apple ID 的新 iPhone，可回復 Pro 購買：
+    </p>
+    <ol>
+      <li>在新裝置或重裝後的裝置開啟 PwNote。</li>
+      <li>前往<strong>Pro / 升級</strong>區塊。</li>
+      <li>點選<strong>回復購買</strong>。</li>
+      <li>確認已登入原購買使用的同一個 Apple ID，且網路連線正常。</li>
+      <li>回復完成後，Pro 功能應可再次使用。</li>
+    </ol>
+
+    <div class="note">
+      <strong>注意：</strong>若購買或回復成功後仍未解鎖 Pro，可先嘗試：
+      <ul>
+        <li>重新啟動 PwNote</li>
+        <li>確認 Apple ID 是否正確</li>
+        <li>確認網路連線正常</li>
+      </ul>
+      若問題持續，請聯絡支援並提供購買日期與相關截圖。
+    </div>
+
+    <h2>5. 常見問題</h2>
+
+    <h3>5.1 我忘記主密碼了，可以幫我重設嗎？</h3>
+    <p>
+      不行。基於隱私與安全性，我們無法存取或重設你的主密碼。
+      你只能透過<strong>復原金鑰</strong>重新取得存取權。
+    </p>
+
+    <h3>5.2 我同時遺失主密碼與復原金鑰，還能救回資料嗎？</h3>
+    <p>
+      很遺憾，不行。因為我們不在伺服器保存你的保管庫，也不知道你的金鑰，
+      若同時遺失主密碼與復原金鑰，資料無法復原。
+    </p>
+
+    <h3>5.3 PwNote 會在裝置間自動同步嗎？</h3>
+    <p>
+      PwNote 不提供雲端同步與線上帳號。
+      若要在裝置間搬移資料，請使用檔案 App 的加密備份匯出/匯入流程。
+    </p>
+
+    <h3>5.4 PwNote 支援 SSO 與 OTP 嗎？</h3>
+    <p>
+      PwNote 可儲存並整理使用 SSO 的登入資料，以及需要一次性密碼（TOTP）驗證的帳號。
+      但 SSO 與 OTP 都是以保管庫項目形式保存；PwNote 不會直接連線外部身份提供者。
+    </p>
+
+    <h2>6. 隱私權政策</h2>
+    <p>
+      若要了解 PwNote 如何處理你的資料與隱私，請參閱
+      <a href="https://jackshie.github.io/PwNote/PrivacyPolicy_zh-Hant.html">PwNote 隱私權政策</a>。
+    </p>
+
+    <h2>7. 聯絡我們</h2>
+    <p>
+      若你需要協助、發現 bug，或想提出功能建議，歡迎聯絡我們：
+    </p>
+    <ul>
+      <li><strong>Email：</strong> <a href="mailto:pwnote.service@gmail.com">pwnote.service@gmail.com</a></li>
+    </ul>
+    <p>回報問題時，建議一併提供：</p>
+    <ul>
+      <li>你的 iOS 版本與裝置型號</li>
+      <li>你使用的 PwNote 版本</li>
+      <li>問題發生當下的操作簡述</li>
+      <li>錯誤訊息或截圖（若可提供）</li>
+    </ul>
+  </main>
+</body>
+</html>
